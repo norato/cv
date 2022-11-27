@@ -1,22 +1,24 @@
 <div class="experience">
   <p>{{ location }}</p>
-  <div class="experience--company">
+  <div class="experience__company">
     <img
-      class="experience--company__logo"
+      class="experience__company--logo"
       [ngSrc]="logo"
       [alt]="companyName"
       width="100"
       height="100"
       priority
     />
-    <p>{{ companyName }}</p>
-    <p>{{ period }}</p>
-    <p>{{ role }}</p>
+    <div class="experience__company--info">
+      <p>{{ companyName }}</p>
+      <p>{{ period }}</p>
+      <p>{{ role }}</p>
+    </div>
   </div>
-  <div class="experience--description">
+  <div class="experience__description">
     <p>{{ description }}</p>
   </div>
-  <div class="experience--stack">
+  <div class="experience__stack">
     <p>{{ stack }}</p>
   </div>
 </div>

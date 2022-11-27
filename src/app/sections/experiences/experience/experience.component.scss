@@ -10,7 +10,13 @@
   text-align: center;
 }
 
+.experience .experience__company {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-.experience .experience--description {
+
+.experience .experience__description {
   text-align: justify;
 }
