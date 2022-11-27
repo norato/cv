@@ -1,0 +1,16 @@
+<div class="experiences">
+  <h2>CONTACT</h2>
+
+  <ng-container *ngFor="let experience of experiences">
+    <hr />
+    <app-experience
+      [location]="experience.location"
+      [companyName]="experience.companyName"
+      [role]="experience.role"
+      [description]="experience.description"
+      [logo]="experience.logo"
+      [period]="experience.period"
+      [stack]="experience.stack"
+    ></app-experience>
+  </ng-container>
+</div>
