@@ -12,3 +12,16 @@
     border-radius: 50%
   }
 }
+
+.personal-info .personal-info__contact {
+  text-align: center;
+  .personal-info__contact--infos {
+    .personal-info__contact--info {
+      display: flex;
+      align-items: center;
+      .personal-info__contact--icon {
+        width: 30px;
+      }
+    }
+  }
+}
