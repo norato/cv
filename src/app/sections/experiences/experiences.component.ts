@@ -12,6 +12,18 @@ import { ExperienceComponent, ExperienceComponentInputs } from './experience/exp
 })
 export class ExperiencesComponent {
 
+  private Bee: ExperienceComponentInputs = {
+    location: '[Remote] Brazil/Portugal',
+    companyName: 'Bee Engineer',
+    role: 'Senior Frontend Engineer',
+    description: `
+      Creating apps and libraries for D&G e-commerce. Working on improving libraries,
+      enterprise architecture, control state management and design system libraries.
+    `,
+    logo: 'assets/bee.png',
+    period: 'October 2021/Current',
+    stack: 'Angular, NgRx, Jest, Nonorepo, NX'
+  }
   private DnGExperience: ExperienceComponentInputs = {
     location: '[Remote] Brazil/Portugal',
     companyName: 'Domestic And General',
@@ -72,6 +84,7 @@ export class ExperiencesComponent {
   }
 
   experiences = [
+    this.Bee,
     this.DnGExperience,
     this.Itau,
     this.Wave,

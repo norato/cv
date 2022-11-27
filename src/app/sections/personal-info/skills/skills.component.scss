@@ -2,3 +2,12 @@
   display: block;
 }
 
+.skills .skills__list {
+  list-style: none;
+}
+
+.skills .skills__cover {
+  .skills__cover--description {
+    text-align: justify;
+  }
+}

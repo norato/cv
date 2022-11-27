@@ -1,3 +1,16 @@
 :host {
   display: block;
 }
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.experience .experience--description {
+  text-align: justify;
+}
