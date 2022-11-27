@@ -1,0 +1,14 @@
+:host {
+  width: 100%;
+  display: block;
+}
+
+.personal-info {
+  .personal-info__me {
+    text-align: center;
+  }
+
+  .personal-info__avatar {
+    border-radius: 50%
+  }
+}
