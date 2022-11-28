@@ -4,9 +4,9 @@
   margin: 0 auto;
   background-color: #ffffff;
 
+  padding: 8px;
   width: 21cm;
   min-height: 29.7cm;
-  padding: 1cm;
   margin: 1cm auto;
   border: 1px #d3d3d3 solid;
 }
@@ -17,9 +17,9 @@
 }
 
 @media print {
-  .page {
+  .container {
     margin: 0;
-    border: initial;
+    border: none;
     border-radius: initial;
     width: initial;
     min-height: initial;
@@ -38,13 +38,17 @@
     display: flex;
     gap: 15px;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    margin-bottom: 8px;
   }
 
   .left {
     width: 70%;
   }
   .right {
-    flex-grow: auto;
+    flex-grow: 1;
+    background: #2d343d;
+    padding: 8px;
+    border-radius: 8px;
   }
 }

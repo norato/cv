@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
   templateUrl: './personal-info.component.html',
   styleUrls: ['./personal-info.component.scss'],
 })
-export class PersonalInfoComponent {}
+export class PersonalInfoComponent {
+  experience = new Date().getFullYear() - 2013;
+
+  description = `
+    I am an Angular Specialist that loves creating well-written and efficient software.
+    Through my ${this.experience}+ years of experience, I have been working in many kinds of fields.
+    That gave me a lot of knowledge on clear code. I am passionate about software testing
+    and automatization, front-end architecture, and design systems.
+  `
+
+}
