@@ -5,29 +5,17 @@
 
 .personal-info {
   .personal-info__me {
-    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .personal-info__avatar {
-    border-radius: 50%
   }
-}
 
-.personal-info .personal-info__contact {
-  text-align: center;
-  .personal-info__contact--infos {
-    .personal-info__contact--info {
-      display: flex;
-      align-items: center;
-      .personal-info__contact--icon {
-        width: 30px;
-      }
-    }
-  }
-}
-
-.personal-info .personal-info__cover {
-  .personal-info__cover--description {
+  .personal-info__infos--description {
     text-align: justify;
   }
 }
+

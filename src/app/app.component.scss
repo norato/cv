@@ -1,18 +1,50 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 90%;
   margin: 0 auto;
+  background-color: #ffffff;
+
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 1cm;
+  margin: 1cm auto;
+  border: 1px #d3d3d3 solid;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
 }
 
 @media (min-width: 480px) {
   .container {
-    flex-direction: row;
-    gap: 15px;
-  }
-  app-personal-info,
-  app-experiences {
-    width: 50%;
+    flex-direction: column;
   }
 
+  .row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    width: 70%;
+  }
+  .right {
+    flex-grow: auto;
+  }
 }
