@@ -15,7 +15,8 @@ export class PersonalInfoComponent {
     I am an Angular Specialist that loves creating well-written and efficient software.
     Through my ${this.experience}+ years of experience, I have been working in many kinds of fields.
     That gave me a lot of knowledge on clear code. I am passionate about software testing
-    and automatization, front-end architecture, and design systems.
+    and automatization, frontend architecture, and design systems.
+    Also, to write tech articles and help teammates to achieve the best of their performances and code quality
   `
 
 }

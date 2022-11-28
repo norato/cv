@@ -25,10 +25,10 @@ export class SkillsComponent {
 
   social = [
     'Good Communication',
-    'Mentoring',
-    'Leadership(Small groups)',
+    'Mentoring Teammates',
+    'Leadership',
     'Team Player',
-    'Presenter / Lecture',
-    'Clean code evangelist',
+    'Presenter',
+    'Clean Code Evangelist',
   ];
 }

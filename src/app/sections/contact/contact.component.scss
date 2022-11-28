@@ -9,22 +9,23 @@
   a {
     color: #ffffff;
   }
-  .contact__infos {
-    .contact__info {
+}
+
+.contact .contact__infos {
+  .contact__info {
+    display: flex;
+    align-items: center;
+    .contact__info--icon {
+      width: auto;
+      min-width: 16px;
+      background: #fff;
+      padding: 8px 6px;
+      color: #000;
+      border-radius: 8px;
+      margin-right: 12px;
       display: flex;
+      justify-content: center;
       align-items: center;
-      .contact__info--icon {
-        width: auto;
-        min-width: 16px;
-        background: #fff;
-        padding: 8px 6px;
-        color: #000;
-        border-radius: 8px;
-        margin-right: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
     }
   }
 }
