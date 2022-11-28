@@ -4,6 +4,7 @@
 .contact {
   width: 100%;
   padding: 8px;
+  font-size: 14px;
   color: #ffffff;
   a {
     color: #ffffff;
@@ -20,6 +21,9 @@
         color: #000;
         border-radius: 8px;
         margin-right: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

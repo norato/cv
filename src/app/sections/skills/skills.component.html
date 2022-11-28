@@ -1,23 +1,30 @@
 <div class="skills">
   <h2>SKILLS</h2>
-  <hr />
-  <div>
-    <p>Professional</p>
-    <ul class="skills__list">
-      <li *ngFor="let skill of professional">{{ skill }}</li>
-    </ul>
-    <p>Social</p>
-    <ul class="skills__list">
-      <li *ngFor="let skill of social">{{ skill }}</li>
-    </ul>
+  <div class="skill__title">
+    <em class="fa-solid fa-screwdriver-wrench"></em>
+    <p>Technical</p>
   </div>
-  <div class="skills__cover">
-    <p class="skills__cover--description">
-      Enjoy learning new technologies and libraries like NgRx and Schematics,
-      and, as possible as well, contribute to them. Interested in creating tools
-      to make the team deliver fast. I like to write tech articles and video
-      tutorials on my
-      <a [href]="youtubeUrl">Youtube Channel (pt-br)</a>.
-    </p>
+  <div class="skills__list">
+    <p *ngFor="let skill of professional">{{ skill }}</p>
+  </div>
+  <div class="skill__title">
+    <em class="fa-regular fa-user"></em>
+    <p>Social</p>
+  </div>
+  <div class="skills__list">
+    <p *ngFor="let skill of social">{{ skill }}</p>
+  </div>
+  <div class="skill__title">
+    <em class="fa-brands fa-creative-commons"></em>
+    <p>Content Creator</p>
+  </div>
+
+  <div class="skill__content-creator">
+    <em class="fa-brands fa-youtube"></em>
+    <a target="_blank" [href]="youtubeUrl">Proggraming Playlist (pt-BR)</a>
+  </div>
+  <div class="skill__content-creator">
+    <em class="fa-brands fa-medium"></em>
+    <a target="_blank" [href]="mediumUrl">Medium Articles</a>
   </div>
 </div>

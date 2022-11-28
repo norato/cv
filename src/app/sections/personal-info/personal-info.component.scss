@@ -8,11 +8,11 @@
     display: flex;
     gap: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .personal-info__infos--name {
-    margin-bottom: 0;
+    margin: 0;
     font-size: 3em;
   }
   .personal-info__infos--role {

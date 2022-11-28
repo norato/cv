@@ -1,13 +1,45 @@
 :host {
   display: block;
 }
+.skills {
+  width: 100%;
+  padding: 8px;
+  color: #ffffff;
+  a {
+    color: #ffffff;
+  }
+}
+
+.skills .skill__title {
+  margin-top: 12px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 16px;
+  &:not(:first-of-type) {
+    margin-top: 24px;
+  }
+}
 
 .skills .skills__list {
-  list-style: none;
+  p {
+    background-color: #a6a6a6;
+    padding: 4px;
+    color: #334655;
+    border-radius: 8px;
+    width: fit-content;
+  }
 }
 
 .skills .skills__cover {
   .skills__cover--description {
     text-align: justify;
   }
+}
+
+.skills .skill__content-creator {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

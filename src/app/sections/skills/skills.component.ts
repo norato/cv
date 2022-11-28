@@ -10,14 +10,17 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   youtubeUrl = 'https://www.youtube.com/playlist?list=PLUiA-wncNaaqf1B-0RAdSQNz9fL-oEkek'
+  mediumUrl = 'https://medium.com/@norato-felipe';
 
   professional = [
-    'Angular 10+',
+    'Angular',
     'Typescript',
     'Storybook',
     'RxJs',
-    'Jest / Karma and Jasmine',
-    'Node / Express / NestJS',
+    'Monorepo',
+    'Creating Libs',
+    'Unit Tsests',
+    'Schematics'
   ];
 
   social = [
@@ -27,6 +30,5 @@ export class SkillsComponent {
     'Team Player',
     'Presenter / Lecture',
     'Clean code evangelist',
-  ]
-
+  ];
 }
