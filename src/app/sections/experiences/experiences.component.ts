@@ -40,7 +40,7 @@ export class ExperiencesComponent {
       Review and validate the Pull Requests. And work with the QA and Analytics team.
     `,
     logo: 'assets/dongen.png',
-    period: 'July 2021/Current',
+    period: 'July 2021/Dec 2022',
     stack: 'Angular, NgRx, Jest, Nonorepo, NX'
   }
 
