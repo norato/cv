@@ -19,7 +19,7 @@ export class SkillsComponent {
     'RxJs',
     'Monorepo',
     'Creating Libs',
-    'Unit Tsests',
+    'Unit Tests',
     'Schematics'
   ];
 
