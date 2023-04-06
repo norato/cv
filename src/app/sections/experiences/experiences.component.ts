@@ -17,11 +17,7 @@ export class ExperiencesComponent {
     companyName: 'Bee Engineer',
     role: 'Senior Frontend Engineer',
     description: `
-      Working on constructing and migrating bank applications.
-      Defining frontend patterns for the team.
-      Helping the teammates on the blockers.
-      Review and validate features on their Pull Requests.
-      Discussing with the architects the best solutions.
+    I am currently leading the construction and migration of applications while defining frontend patterns for my team. I support my colleagues in overcoming any blockers they may face and ensure the quality of the features by reviewing and validating their pull requests. Furthermore, I actively collaborate with architects to identify and implement the best solutions.
     `,
     logo: 'assets/bee.png',
     period: 'October 2021/Current',
@@ -33,11 +29,7 @@ export class ExperiencesComponent {
     companyName: 'Domestic And General',
     role: 'Senior Frontend Engineer',
     description: `
-      Worked on many different projects in a micro-frontend environment.
-      Created shared libs and components to white-label applications.
-      Created an e2e test library to make it easy to test the happy and alternative flow of the applications.
-      Responsible for the onboarding of new developers.
-      Review and validate the Pull Requests. And work with the QA and Analytics team.
+    I have worked on multiple projects in a micro-frontend environment, where I developed shared libraries and components to enable the white-labeling of applications. In addition, I created an e2e test library to streamline the testing process for happy and alternative flows within applications. I also had the privilege of onboarding new developers and reviewing/validating their pull requests. Furthermore, I collaborated with the QA and Analytics team to ensure that project requirements were met.
     `,
     logo: 'assets/dongen.png',
     period: 'July 2021/Dec 2022',
@@ -49,9 +41,7 @@ export class ExperiencesComponent {
     companyName: 'Itaú',
     role: 'Senior Frontend Engineer',
     description: `
-      Worked on the online exchange module of Itaú Internet Banking.
-      My responsibilities are to take care of the Frontend architecture and
-      code quality and mentor the developers in my squad.
+    I had the opportunity to work on the online exchange module of Itaú Internet Banking, where I was responsible for the Frontend architecture, ensuring code quality, and helping to create UI libraries. Additionally, I mentored developers within my squad to help them improve their skills and knowledge.
     `,
     logo: 'assets/itau.png',
     period: 'May 2020/Jul 2021',
@@ -63,11 +53,7 @@ export class ExperiencesComponent {
     companyName: 'Wavy',
     role: 'Senior Frontend Engineer',
     description: `
-      I worked on Messaging, the Customer Experience platform focused on messaging teams.
-      This application is responsible for managing communication from the most significant
-      companies from Brazil and Latam, and it sends approximately 1 billion SMS per month.
-      For this application, I create a Design System and Angular Schematics to generate code
-      to a complete feature's flux. I also create the CD/CI pipelines and culture for the team.
+    I worked on Messaging, a Customer Experience platform that processes approximately 1 billion SMS messages monthly for some of Brazil and Latam's largest companies. As part of my role, I created a Design System and Angular Schematics to generate code for a complete feature's flow. I also established CD/CI pipelines and a culture of continuous integration and delivery within the team.
     `,
     logo: 'assets/wavy.webp',
     period: 'March 2019/Feb 2020',
@@ -79,12 +65,7 @@ export class ExperiencesComponent {
     companyName: 'WMware',
     role: 'Frontend Engineer',
     description: `
-      I worked on the creation of Cloud and Pathfinder VMware applications.
-      At Cloud, I was responsible for creating the Design System, the application’s
-      architecture, and the integrations to VMware’s Single Sign-on and Salesforce.
-      Another project I built was a cross-platform application using Electron to create
-      reports from the Client’s Vsphere Servers. At last, I helped the DevOps team to
-      create the automated code pipeline and build it using Terraform to make infra as code.
+    I was involved in creating Cloud and Pathfinder VMware applications. I played a crucial role in designing the application architecture, creating the Design System, and integrating the applications with VMware's Single Sign-on and Salesforce. I also developed a cross-platform application using Electron to generate reports from Client's Vsphere Servers. I supported the DevOps team in implementing an automated code pipeline using Terraform to achieve infrastructure as code.
     `,
     logo: 'assets/VMware-logo.png',
     period: 'August 2017/March 2019',

@@ -9,14 +9,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./personal-info.component.scss'],
 })
 export class PersonalInfoComponent {
-  experience = new Date().getFullYear() - 2013;
+  experience = new Date().getFullYear() - 2014;
 
   description = `
-    I am an Angular Specialist that loves creating well-written and efficient software.
-    Through my ${this.experience}+ years of experience, I have been working in many kinds of fields.
-    That gave me a lot of knowledge on clear code. I am passionate about software testing
-    and automatization, frontend architecture, and design systems.
-    Also, to write tech articles and help teammates to achieve the best of their performances and code quality
+    I'm a seasoned frontend developer with ${this.experience}+ years of experience. I excel at
+    writing efficient code, software testing, automation, frontend architecture,
+    and design systems. I also enjoy writing tech articles and helping my team
+    members achieve their best performance and code quality.
   `
 
 }
